@@ -102,6 +102,7 @@ function menu(){
     document.getElementById("clos").style.display = "block"
     document.getElementById("open_menu").style.display = "none"
     document.getElementById("abt").style.left = "0"
+    document.getElementById("abt").style.backgroundColor ="beige"
 }
 function closer(){
     document.getElementById("abt").style.left = "-150px"
