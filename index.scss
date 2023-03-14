@@ -1,0 +1,48 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    
+}
+section{
+    position: sticky;
+    
+
+.topmost{
+    border: 1px solid black;
+    display: flex;
+    justify-content: right;
+    background-image: linear-gradient(to left,rgba(61,61,61), rgba(156,156,156));
+
+.topmost span{ 
+    color: white;
+    padding:0 20px;
+    font-size: 10px;
+}
+}
+nav{
+    border: 1px solid brown;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav span{
+    padding: 0 20px;
+
+}
+}
+.active{
+    padding: 10px;
+    background-color: beige; 
+    left: 0;
+    width: 150px;
+    bottom: 0;
+    top:67px;
+    transition:ease-in-out 5s;
+   span{
+    padding:10px 0;
+   }
+
+}
