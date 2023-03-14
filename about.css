@@ -262,7 +262,7 @@ footer a:hover{
         flex-direction: column;
         justify-content: center;
     }
-    .see-img img{
+    .see-img div{
         
         width: 100%;
     margin-bottom: 20px;
@@ -270,10 +270,13 @@ footer a:hover{
     }
     
 }
-@media (max-width:419.33px) {
-    .about{
-        
+@media (max-width:791.33px) {
+    #abt{
+        display: none;
     }
+}
+@media (max-width:419.33px) {
+    
     .about h1{
         font-size: 30px;
     }
