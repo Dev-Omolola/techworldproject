@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.topmost {
+    border: 1px solid black;
+    display: flex;
+    justify-content: right;
+    background-image: linear-gradient(to left, rgba(61, 61, 61), rgba(156, 156, 156));
+}
+.topmost span {
+    color: white;
+    padding: 0 20px;
+    font-size: 10px;
+}
+
+nav {
+    background-color: white;   
+}
+.con {
+      height: 50px;
+      padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-one {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.section-two{
+    background-color: whitesmoke;
+    position: relative;
+
+}
