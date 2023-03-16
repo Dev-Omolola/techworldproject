@@ -66,9 +66,6 @@ infos =[
 ]
 
 
-let ham = document.getElementById("ham")
-let abt = document.getElementById("abt")
-
 
 for (let index = 0; index < info.length; index++) {
     const element = info[index];
@@ -89,27 +86,28 @@ for (let index = 0; index < infos.length; index++) {
         document.getElementById("screen2").innerHTML += `
         <div class='mmm'>
            
-          <div> <img src='${el.img1}'/> </div>
-            <div>  <h5>${el.h}</h5>
+          <div class='mmm-div1'> <img src='${el.img1}'/> </div>
+            <div class='mmm-div'>  <h5>${el.h}</h5>
+                
                <p>${el.s}</p> </div>
             
         </div>
        `
     
 }
-document.getElementById("clos").style.display = "none"
+
+document.getElementById("close").style.display = "none"
+
+
 function menu(){
-    document.getElementById("clos").style.display = "block"
+    document.getElementById("close").style.display = "block"
     document.getElementById("open_menu").style.display = "none"
-    document.getElementById("abt").style.left = "0"
-    document.getElementById("abt").style.backgroundColor ="beige"
+    document.getElementById("menu").style.left = "0"
+    document.getElementById("menu").style.backgroundColor ="beige"
 }
 function closer(){
-    document.getElementById("abt").style.left = "-150px"
+    document.getElementById("menu").style.left = "-150px"
     document.getElementById("open_menu").style.display = "block";
-    document.getElementById("clos").style.display = "none"
+    document.getElementById("close").style.display = "none"
 }
-// function clic(){
-//     document.getElementById("abt").style.display = "block"
-//     document.getElementById("abt").classList.toggle("active1")
-// }
+
